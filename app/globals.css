@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --fondo: #1a1200;
+  --texto: #f5d77e;
+  --acento: #e8952a;
+  --correcto: #7ecf6e;
+  --boton: #c47a1e;
+  --card: #2a1f00;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--fondo);
+  color: var(--texto);
+  font-family: Georgia, serif;
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-family: Georgia, serif;
+}
