@@ -279,7 +279,7 @@ export default function PacientePage() {
 
         {respuestaDetectada && (
           <p style={{ ...s.texto, fontSize: '1.4rem' }}>
-            Dijiste: "{respuestaDetectada}"
+            {`Dijiste: "${respuestaDetectada}"`}
           </p>
         )}
 
