@@ -291,6 +291,10 @@ export default function PacientePage() {
         >
           Repetir pregunta
         </button>
+
+        <button style={s.botonSecundario} onClick={reiniciar}>
+          Volver al menú
+        </button>
       </div>
     );
   }
